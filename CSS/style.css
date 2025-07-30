@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img1{
+    position: relative;
+
+}
+.img2{
+    position: absolute;
+    top: 26%;
+    right: 60.6%;
+}
+
+#img1{
+   /* max-width: 700px !important; */
+}
+#img2{
+    /* width: 300px !important; */
+}
+
+/* section2 */
+.section2{
+    span{
+        margin-left: 10px;
+        font-size: 1rem;
+    }
+
+   .twenty{
+        width: 150px;
+        /* height: 50px; */
+    }
+    .img{
+        width: 76px;
+        /* height: 100px; */
+    }
+}
+
+
+/* section3 */
+
+.section3{
+    background-color: #130A0D;
+    background-image: url('../imgs/bg-img.png');
+    background-size: cover;
+    background-position: center;
+    .cont{
+    }
+}
