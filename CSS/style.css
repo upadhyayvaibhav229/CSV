@@ -42,10 +42,55 @@
 /* section3 */
 
 .section3{
-    background-color: #130A0D;
-    background-image: url('../imgs/bg-img.png');
-    background-size: cover;
-    background-position: center;
     .cont{
+        background-color: #130A0D;
+        background-image: url('../imgs/bg-img.png');
+        background-size: cover;
+        background-position: center;
+            
+    }
+}
+
+
+/* section6 */
+.section6{
+    .banner{
+        background-image: url('../imgs/bg-img.png');
+        background-size: cover;
+        background-position: center;
+       
+    }
+    
+}
+
+/* footer */
+.quick-links{
+    h3{
+        margin-bottom: 30px;
+    }
+    ul{
+        li{
+            margin-bottom: 10px;
+        }
+    }
+}
+.services{
+    h3{
+        margin-bottom: 20px;
+    }
+    ul{
+        li{
+            margin-bottom: 10px;
+        }
+    }
+}
+.contact{
+    h3{
+        margin-bottom: 20px;
+    }
+    ul{
+        li{
+            margin-bottom: 10px;
+        }
     }
 }
