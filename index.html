@@ -56,8 +56,8 @@
         <!-- Search form aligned right -->
 
         <button class="border-0 bg-brown text-white d-flex align-items-center justify-content-center px-4 py-2 rounded-3 mb-0"
-          type="submit">
-          <i class="fa-solid fa-phone"></i>  <span class="ms-2">808-457-0060</span>
+          type="submit">  
+          <i class="fa-solid fa-phone-volume"></i>  <span class="ms-2 fs-5">808-457-0060</span>
         </button>
       </div>
     </div>
@@ -67,7 +67,7 @@
   <section id="home" class="section1">
     <div class="d-flex flex-wrap-reverse flex-lg-nowrap justify-content-between container">
       <div class="content align-self-center col-md-12 col-lg-7 mt-2 mt-lg-1 mt-lg-0">
-        <h1 class="fs-1">
+        <h1 class="fs-1 fw-bold">
           Create Your Dream
           <span class="d-lg-block">Home With Our <span class="text-brown">Custom</span></span>
           Home Builders
@@ -92,14 +92,16 @@
 
       
     </div>
-      <div class="d-flex flex-wrap justify-content-center align-items-center mt-3">
-        <div class="border-bottom d-flex gap-5 border-1  fw-bold  ">
+     <div id="button" class="d-lg-flex flex-wrap justify-content-center align-items-center gap-3 d-none ">
+      <div class="d-flex gap-3 align-items-center border-bottom border-3 border-brown">
 
-          <p class="">01</p>
-          <p>02</p>
-          <p>03</p>
-        </div>
-    </div>
+        <div class="step active">01</div>
+        <div class="step">02</div>
+        <div class="step">03</div>
+      </div>
+</div>
+
+
 
      
   </section>
@@ -110,11 +112,11 @@
       <!-- Left Column -->
       <div class="col-12 col-md-6 mb-4 mb-md-0 d-flex flex-column gap-3">
         <h3 class="text-brown">About Us</h3>
-        <h2 id="heading" >
-          Specializing in <span class="text-brown" id="heading">Whole Home</span> Remodels, Home Renovation Services, and
+        <h2 id="heading" class="fw-bold fs-1" >
+          Specializing in<span class="text-brown" id="heading">Whole Home</span> Remodels, Home Renovation Services, and
           High-End Home Construction
         </h2>
-        <img src="imgs/about.png" class="img-fluid" alt="About Us Image" />
+        <img src="imgs/about.png" loading="lazy" class="img-fluid" alt="About Us Image" />
       </div>
 
       <!-- Right Column -->
@@ -127,7 +129,7 @@
           remodels and home construction services in Salt Lake County, Utah
           County, Sanpete County, and Juab County.
         </p>
-        <button class="btn bg-brown text-white px-4 py-2 border-0 mt-3">
+        <button class=" bg-brown text-white px-4 py-2 border-0 mt-3">
           Schedule Your Free Estimate Today
         </button>
 
@@ -147,12 +149,13 @@
     </div>
   </section>
 
+       
   <!-- section3 -->
  <section class="section3 w-100 cont mt-5 d-flex justify-content-start align-items-start" >
   <div class="container-fluid w-100 px-0 d-flex justify-content-center justify-content-lg-start">
     <div class="container-xxl  w-100  d-flex flex-wrap flex-md-wrap flex-lg-nowrap align-items-start align-items-lg-start p-1 custom-container">
       <!-- Image Section -->
-      <img src="imgs/section3.png" class="img-fluid img-custom" alt="" />
+      <img src="imgs/section3.png" loading="lazy" class="img-fluid img-custom" alt="" />
 
       <!-- Text Content Section -->
       <div class="content p-2 py-3 px-md-5 gap-md-6  d-flex flex-column align-self-center justify-content-between py-5">
@@ -167,7 +170,7 @@
             Discover expert tips, budgeting advice, <span class="d-lg-block">and design inspiration to
             make your </span> <span class="d-lg-block">remodeling project seamless.</span>
           </p>
-          <button class="btn bg-brown text-white px-4 py-3 fs-5 border-0">
+          <button class=" bg-brown text-white px-4 py-3 fs-5 border-0">
             Download Now
           </button>
         </div>
@@ -202,7 +205,7 @@
         </p>
         <!-- arrow-icons -->
       </div>
-      <div class="d-none d-lg-block">
+      <div id="arrow" class="d-none d-lg-block">
         <span class="arrow border border-brown px-2 py-2"><i class="fa-solid fa-arrow-left"></i></span>
 
         <span class="arrow border border-brown px-2 py-2"><i class="fa-solid fa-arrow-right"></i></span>
@@ -211,12 +214,12 @@
     <div  class="imgs mt-5 gap-1 d-flex flex justify-content-between">
       <div class="arrows d-flex flex-column justify-content-center  d-lg-none">
 
-        <span class="arrow  bg-danger border border-brown px-2 py-2"><i class="fa-solid fa-arrow-left"></i></span>
+        <span class="arrow border border-brown px-2 py-2"><i class="fa-solid fa-arrow-left"></i></span>
       </div>
       
 
-      <img src="imgs/IMG_5701 1.png" class="img-fluid" alt="" />
-      <img src="imgs/Frame 9688.png" class="img-fluid d-none d-md-block d-lg-block" alt="" />
+      <img src="imgs/IMG_5701 1.png" loading="lazy" class="img-fluid" alt="" />
+      <img src="imgs/Frame 9688.png" loading="lazy" class="img-fluid d-none d-md-block d-lg-block" alt="" />
       <img src="imgs/Frame 9690.png" class="img-fluid d-none d-lg-block" alt="" />
 
       <div class="arrows d-flex flex-column justify-content-center me-3 d-lg-none">
@@ -228,15 +231,60 @@
 
   </section>
 
+  
+  <!-- section11 -->
+  <section class="section11">
+
+    <div class="container section-container">
+    <div class="row ">
+      <div class="col-lg-6 content-box">
+        <p class="text-highlight fw-semibold">Why Choose Us</p>
+        <h2 class="fw-bold fs-7">Why Choose <span class="text-highlight ">CHV </span> <span class="d-md-block">Construction ?</span></h2>
+        <p class="text-muted">
+          CHV Construction is not just another home remodeling company. Our firm was built on a foundation of 20 years of
+          experience from our founder, Clint Hurst. Since 2018, we have been a trusted custom home builder in Utah, and we have
+          a deep knowledge of Utah County housing trends and permitting processes. We also prioritize modern building techniques,
+          and our team is constantly keeping up to date with construction innovations to make your project more efficient and
+          affordable while delivering your aesthetic vision.
+        </p>
+      </div>
+      <div class="col-lg-6 mt-lg-6">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Living Room" class="img-fluid image-top">
+      </div>
+    </div>
+
+    <div class="row  align-items-start">
+      <div class="col-lg-7 order-2 order-lg-0">
+        <img src="https://chvconstruction.com/wp-content/uploads/2025/04/designing-door.jpg.webp" alt="Kitchen" class="img-fluid image-bottom">
+      </div>
+      <div class="col-lg-5 content-box order-1 order-lg-0">
+        <p class="text-highlight fw-semibold">Collaboration</p>
+        <h2 class="fw-bold fs-7">Designing <span class="text-highlight">Homes</span> That Reflect Your Lifestyle</h2>
+        <p class="text-muted">
+          When we visit your space to discuss a remodel—or when you visit us to discuss custom home construction—we will help you
+          design a space that fits into your lifestyle, emphasizing flow and functionality throughout the home. We will also take
+          the time to go over different materials, designs, and finishes to discuss why they may or may not work for your home.
+        </p>
+        <ul class="list-unstyled checklist">
+          <li>Your Home, Your Vision</li>
+          <li>Empowered Collaboration</li>
+          <li>Personalized Remodels</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </section>
+
+
   <!-- section6 -->
   <section class="section6 bg-black text-white py-5">
     <div class="banner container row mx-auto d-flex justify-content-between" id="bg-img">
       <div class="right-cont col-md-6 col-lg-5 d-flex flex-column gap-3">
         <h3 class="text-brown">React Out To Us</h3>
-        <h2>Don’t Settle for a House That Doesn’t Feel Like Home</h2>
+        <h2 class="fw-bold fs-7">Don’t Settle for a House That Doesn’t Feel Like Home</h2>
       </div>
       <div class="left-btn col-md-6 col-lg-4 gap-3 align-self-center">
-        <button class="btn bg-brown text-white px-4 py-2 fs-6  border-0">
+        <button class=" bg-brown text-white px-4 py-2 fs-6  border-0">
           Schedule Your Free Estimate Today
         </button>
       </div>
@@ -249,16 +297,16 @@
       <div class="row row1">
         <div class="col-md-6 col-lg-5 d-flex flex-wrap flex-column gap-2">
           <h3 class="text-brown">Best Work</h3>
-          <h2>Our <span class="text-brown">Featured</span> Project</h2>
+          <h2 class="fw-bold fs-7">Our <span class="text-brown">Featured</span> Projects</h2>
         </div>
         <div
           class="col-md-6 col-lg-7 d-flex flex-wrap flex-lg-nowrap  gap-md-3 align-self-center justify-content-between">
-          <p class="fs-5">
+          <p class="fs-4 fw-semibold">
             Explore our stunning, expertly crafted
             <span class="d-lg-block">projects showcasing quality and innovation.</span>
           </p>
           <div>
-            <button class="btn bg-brown text-white px-md-4 py-md-3 border-0">
+            <button class=" bg-brown text-white px-md-4 py-md-3 border-0">
               View portfolio
             </button>
           </div>
@@ -267,10 +315,10 @@
       <div class="row row2 mt-4 d-flex justify-content-between">
         <div class="col-md-12 col-lg-12 col-xl-4 d-flex flex-column gap-3 justify-content-between">
           <div>
-            <h2 class="fs-4">Modern Elegance Retreat</h2>
+            <h2 class="fs-4 fw-semibold">Modern Elegance Retreat</h2>
             <p>
               Sleek, open spaces blending minimalist
-              <span class="d-md-block">design with warm, inviting comfort and functionality.</span>
+              <span class="d-md-block">design with warm, inviting comfort and </span> functionality.
             </p>
           </div>
 
@@ -295,8 +343,8 @@
           <div>
             <h2 class="fs-4">Urban Chic Haven</h2>
             <p>
-              A contemporary, stylish home featuring clean lines, cozy
-              interiors, and modern aesthetics.
+              A contemporary, stylish home featuring <span class="d-md-block">clean lines, cozy
+              interiors, and modern </span> aesthetics.
             </p>
           </div>
 
@@ -320,17 +368,17 @@
   <section class="bg-gray py-5">
     <div class="container d-flex flex-column justify-content-center align-items-center">
       <div class="cont1 text-center">
-        <h1 class="text-brown">Our Process</h1>
-        <h2>
+        <h1 class="text-brown fs-4 fw-bold">Our Process</h1>
+        <h2 class="fw-bold fs-7">
           3 <span class="text-brown">Easy</span> Steps To Get Our Services
         </h2>
       </div>
       <div class="box d-flex flex-wrap flex-md-nowrap justify-content-around gap-4 mt-3">
-        <div class="box1 bg-white p-5 w-50">
+        <div class="box1 bg-white p-5 w-50 ">
           <span class="outlined-text">01</span>
           <div class="mt-2">
-            <h3>We Visit You at Home</h3>
-            <p>
+            <h3 class="fw-semibold fs-4">We Visit You at Home</h3>
+            <p class="fs-5">
               Through a unique combination of engineering, construction and
               design disciplines and expertise.
             </p>
@@ -339,8 +387,8 @@
         <div class="box1 bg-white w-50 p-5">
           <span class="outlined-text">02</span>
           <div class="mt-2">
-            <h3>Detailed Design Process</h3>
-            <p>
+            <h3 class="fw-semibold fs-4">Detailed Design Process</h3>
+            <p class="fs-5">
               Through a unique combination of engineering, construction and
               design disciplines and expertise.
             </p>
@@ -349,8 +397,8 @@
         <div class="box1 bg-white w-50 p-5">
           <span class="outlined-text">03</span>
           <div class="mt-2">
-            <h3>Take Feedback & Repair</h3>
-            <p>
+            <h3 class="fw-semibold fs-4">Take Feedback & Repair</h3>
+            <p class="fs-5">
               Through a unique combination of engineering, construction and
               design disciplines and expertise.
             </p>
@@ -365,15 +413,15 @@
     <div class="container">
       <div class="row d-flex justify-content-around">
         <div class="left col-md-6 col-lg-4 align-self-center">
-          <h3 class="text-brown">Testimonials</h3>
-          <h2>
+          <h3 class="text-brown fs-4 fw-bold">Testimonials</h3>
+          <h2 class="fs-7 fw-bold">
             What Our <span class="text-brown">Clients</span>
             <span class="d-block"> Are Saying</span>
           </h2>
         </div>
 
         <div class="right-cont col-md-6 col-lg-5">
-          <p>
+          <p class="fs-5">
             Homeowners and commercial property owners alike love working with
             us because we build long-term relationships with our clients, and
             we tailor every project to each client’s unique needs and budget.
@@ -393,13 +441,13 @@
                 left: -10px;
                 line-height: 1;
                 z-index: 0;
-                font-family: serif;
+                
               ">
             &ldquo;
           </span>
 
           <!-- Main Text -->
-          <p class="position-relative mb-3" style="z-index: 1">
+          <p class="position-relative mb-3 fs-5" style="z-index: 1">
             From start to finish, the team truly listened to our vision and
             brought it to life beautifully. We couldn’t be happier!
           </p>
@@ -483,6 +531,8 @@
     </div>
   </section>
 
+  
+
   <!-- section10 -->
   <section class="section10 bg-gray py-5">
     <div class="container d-flex flex-column align-items-center gap-3">
@@ -494,9 +544,9 @@
       </div>
       <div class="row d-flex gap-2 mt-2">
         <div class="left col-md-12 col-lg-12 col-xl-5 ">
-          <img src="imgs/Frame 9736.png" class="img-fluid" alt="" />
+          <img src="imgs/Frame 9736.png" loading="lazy" class="img-fluid" alt="" />
           <div class="contents d-flex flex-column gap-3">
-            <h3 class="py-3">
+            <h3 class="py-3 fw-bold fs-4">
               Creating Creating a Spa-Like Bathroom: Design Ideas and
               Inspiration
             </h3>
@@ -507,14 +557,14 @@
               peaceful, spa-inspired atmosphere.
             </p>
           </div>
-          <button class="btn border-bottom border-1" style="border-bottom-color: black !important">
+          <button class=" border-bottom border-1" style="border-bottom-color: black !important">
             Read More
           </button>
         </div>
 
         <div class="right col-12 col-xl-6 d-flex flex-column gap-4 gap-xl-2">
 
-          <div class="right ">
+          <div class="left ">
             <div class="d-flex flex-wrap flex-md-nowrap gap-2">
               <div>
                 <img src="imgs/Frame 9742.png" class="img-fluid" alt="" />
@@ -522,7 +572,7 @@
               <div class="right-cont d-flex flex-wrap flex-md-nowrap flex-column  justify-content-between">
                 <div class="d-flex flex-wrap flex-md-nowrap flex-column gap-2">
 
-                  <h2 class="fs-4">
+                  <h2 class="fs-4 fw-bold">
                     The Power of Accent
                    <span class="d-md-block d-lg-">Lighting in Interior Design</span>
                   </h2>
@@ -535,7 +585,7 @@
 
                 <div>
 
-                  <button class="btn border-bottom border-2 border-brown">Read More</button>
+                  <button class=" border-bottom border-2 border-brown">Read More</button>
                 </div>
               </div>
             </div>
@@ -550,7 +600,7 @@
               <div class="right-cont d-flex flex-column gap-2 justify-content-between">
                 <div class="d-flex flex-wrap flex-md-nowrap flex-column gap-2">
 
-                  <h2 class="fs-4">
+                  <h2 class="fs-4 fw-bold">
                    How to Choose the Right <span class="d-block">Colors for Your Bedroom</span>
                   </h2>
                   <span class="text-muted"><i class="fa-solid fa-calendar"></i> 8 May, 2023</span>
@@ -562,7 +612,7 @@
 
                 <div>
 
-                  <button class="btn border-bottom border-2 border-brown">Read More</button>
+                  <button class=" border-bottom border-2 border-brown">Read More</button>
                 </div>
               </div>
             </div>
@@ -571,88 +621,39 @@
       </div>
     </div>
   </section>
-
-
-
-
-  <section class="section11">
-
-    <div class="container section-container">
-    <div class="row ">
-      <div class="col-lg-6 content-box">
-        <p class="text-highlight fw-semibold">Why Choose Us</p>
-        <h2 class="fw-bold">Why Choose <span class="text-highlight">CHV</span> Construction?</h2>
-        <p class="text-muted">
-          CHV Construction is not just another home remodeling company. Our firm was built on a foundation of 20 years of
-          experience from our founder, Clint Hurst. Since 2018, we have been a trusted custom home builder in Utah, and we have
-          a deep knowledge of Utah County housing trends and permitting processes. We also prioritize modern building techniques,
-          and our team is constantly keeping up to date with construction innovations to make your project more efficient and
-          affordable while delivering your aesthetic vision.
-        </p>
-      </div>
-      <div class="col-lg-6 mt-lg-6">
-        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Living Room" class="img-fluid image-top">
-      </div>
-    </div>
-
-    <div class="row  align-items-start">
-      <div class="col-lg-7 order-2 order-lg-0">
-        <img src="https://chvconstruction.com/wp-content/uploads/2025/04/designing-door.jpg.webp" alt="Kitchen" class="img-fluid image-bottom">
-      </div>
-      <div class="col-lg-5 content-box order-1 order-lg-0">
-        <p class="text-highlight fw-semibold">Collaboration</p>
-        <h2 class="fw-bold">Designing <span class="text-highlight">Homes</span> That Reflect Your Lifestyle</h2>
-        <p class="text-muted">
-          When we visit your space to discuss a remodel—or when you visit us to discuss custom home construction—we will help you
-          design a space that fits into your lifestyle, emphasizing flow and functionality throughout the home. We will also take
-          the time to go over different materials, designs, and finishes to discuss why they may or may not work for your home.
-        </p>
-        <ul class="list-unstyled checklist">
-          <li>Your Home, Your Vision</li>
-          <li>Empowered Collaboration</li>
-          <li>Personalized Remodels</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  </section>
-
-
-
-  <!-- section11 -->
+ 
   <!-- contact section -->
   
     <div class="container contact-section d-flex flex-column">
       <!-- Top text -->
-      <div class="row mb-5 justify-content-center">
+      <div class="row mb- justify-content-center">
         <div class="col ">
-          <p class="text-uppercase fw-semibold text-warning">Contact Us</p>
-          <div class="d-flex flex-wrap justify-content-between ">
+          <p class="text-uppercase fw-semibold text-warning p-lg-2 fs-5">Contact Us</p>
+          <div class="d-flex flex-wrap justify-content-between p-3 py-md-2 ">
 
-            <h2 class="fw-bold">
+            <h2 class="fw-bold fs-7">
               Let’s Start Your <span class="highlight">Dream</span><br />
               Project Today
             </h2>
             <div class="col-md-6 col-lg-5">
 
-              <p class="text-muted mt-3 ">
+              <p class="text-muted mt-3 fs-6 ">
                 Transform your home with expert guidance — schedule a free consultation to explore ideas, designs, and
                 solutions tailored to your vision and lifestyle.
               </p>
             </div>
+
           </div>
         </div>
       </div>
-
-    
       <div class="image-wrapper justify-content-center">
-        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" class="contact-image"
+        <img src="imgs/Contact Us Img 2.png" class="contact-image img-fluid"
           alt="Living Room" />
 
         
         <div class="form-overlay">
-          <h4 class="fw-bold mb-4 fs-7 ">Get in Touch</h4>
-          <form>
+          <h2 class="fw-bold mb-4 fs-7 ">Get in Touch</h2>
+          <form style="margin: 40px 0; padding: 10px 20px;">
             <div class="row mb-3 mt-2">
               <div class="col-md-6 mb-3 mb-md-0">
                 <input type="text" class="form-control" placeholder="Your Name" required />
@@ -684,11 +685,16 @@
     <footer class="bg-gray py-3">
       <div class="container">
         <div class="row d-flex flex-wrap  justify-content-around">
-          <div class="logo col-12 col-lg-3 align-se">
-            <img src="imgs/logo.png" alt="">
-            <p class="text-muted ">Our kitchens may not be able to whisk you away to sun kissed foreign shores, but our
-              collection boasts all
-              the quality craftsmanship and style..</p>
+          <div class="logo col-12 col-lg-3 align-self-center py-4">
+            <div class="d-flex flex-column gap-2">  
+              <div>
+
+                <img src="imgs/logo.png" alt="">
+              </div>
+              <p class="text-muted ">Our kitchens may not be able to whisk you away to sun kissed foreign shores, but our
+                collection boasts all
+                the quality craftsmanship and style..</p>
+            </div>
 
             <div class="d-flex flex-column ">
 
@@ -699,7 +705,7 @@
           </div>
 
 
-          <div class="quick-links col-12 col-lg-2">
+          <div class="quick-links col-12 col-lg-2 py-4">
             <h3 class="">Quick Links</h3>
             <ul class="list-unstyled">
               <li>Home</li>
@@ -709,7 +715,7 @@
               <li>Contact Us</li>
             </ul>
           </div>
-          <div class="services col-12 col-lg-3">
+          <div class="services col-12 col-lg-2 py-4">
             <h3>Services</h3>
             <ul class="list-unstyled ">
               <li>Whole Home Remodel</li>
@@ -721,7 +727,7 @@
               <li>Custom Home Build</li>
             </ul>
           </div>
-          <div class="contact col-12 col-lg-2">
+          <div class="contact col-12 col-lg-2 py-4">
             <h3>Contact Us</h3>
             <p>135 West Mountain Way Dr. Orem, Utah 84058</p>
             <p>clint@chvconstruction.com</p>
