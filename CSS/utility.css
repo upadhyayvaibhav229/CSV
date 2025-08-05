@@ -48,6 +48,25 @@
         margin-top: 9rem;
     }
 
+     .section-container{
+        .col-lg-7 {
+        flex: 0 0 auto;
+        width: 52.333333%;
+    }
+    
+    }
+
     
     
+}
+
+
+.fs-7{
+    font-size: 40px !important;
+
+}
+@media (max-width: 425px){
+    .fs-sm-7{
+        font-size: 29px !important;
+    }
 }

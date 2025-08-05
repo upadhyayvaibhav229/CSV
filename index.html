@@ -16,7 +16,7 @@
     integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <title>Hello, world!</title>
+  <title>CSV Project</title>
 </head>
 
 <body>
@@ -35,36 +35,36 @@
       <!-- Navbar content -->
       <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
         <!-- Nav links centered -->
-        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center ">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active " aria-current="page" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Service</a>
+            <a class="nav-link" href="#services">Services <i class="fa-solid fa-chevron-down " style="font-size: 12px;"></i></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href="#about">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#Donate">Porfolio</a>
+            <a class="nav-link" href="#portfolio">Porfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#Donate">Service Location</a>
+            <a class="nav-link" href="#contact">Service Location</a>
           </li>
         </ul>
 
         <!-- Search form aligned right -->
 
-        <p class="bg-brown text-white d-flex align-items-center justify-content-center px-4 py-2 rounded-3 mb-0"
+        <button class="border-0 bg-brown text-white d-flex align-items-center justify-content-center px-4 py-2 rounded-3 mb-0"
           type="submit">
-          <i class="fa-solid fa-phone"></i> 808-457-0060
-        </p>
+          <i class="fa-solid fa-phone"></i>  <span class="ms-2">808-457-0060</span>
+        </button>
       </div>
     </div>
   </nav>
 
   <!-- Hero Section -->
-  <section class="section1">
+  <section id="home" class="section1">
     <div class="d-flex flex-wrap-reverse flex-lg-nowrap justify-content-between container">
       <div class="content align-self-center col-md-12 col-lg-7 mt-2 mt-lg-1 mt-lg-0">
         <h1 class="fs-1">
@@ -78,8 +78,10 @@
           </span>
           <span class="d-lg-block">homes tailored to your lifestyle, vision, and needs</span>
         </p>
-        <button class="bg-brown text-white py-2 border-0 px-2">Explore Our Services</button>
+        <button class="bg-brown text-white py-2 border-0 px-2" type="submit">Explore Our Services</button>
       </div>
+
+    
 
       <div class="img col-md-12 col-lg-6">
         <div class="img1">
@@ -87,17 +89,29 @@
           <img src="imgs/hero2.png" id="img2" class="img-fluid img2 ms-5 d-md-none d-lg-block " alt="Hero Image" />
         </div>
       </div>
+
+      
     </div>
+      <div class="d-flex flex-wrap justify-content-center align-items-center mt-3">
+        <div class="border-bottom d-flex gap-5 border-1  fw-bold  ">
+
+          <p class="">01</p>
+          <p>02</p>
+          <p>03</p>
+        </div>
+    </div>
+
+     
   </section>
 
   <!-- section2 - about us -->
-  <section class="container section2 mt-5 px-3 px-md-5">
+  <section class="container section2 mt-5 px-3 px-md-5" id="about">
     <div class="row justify-content-between align-items-center">
       <!-- Left Column -->
       <div class="col-12 col-md-6 mb-4 mb-md-0 d-flex flex-column gap-3">
         <h3 class="text-brown">About Us</h3>
-        <h2>
-          Specializing in Whole Home Remodels, Home Renovation Services, and
+        <h2 id="heading" >
+          Specializing in <span class="text-brown" id="heading">Whole Home</span> Remodels, Home Renovation Services, and
           High-End Home Construction
         </h2>
         <img src="imgs/about.png" class="img-fluid" alt="About Us Image" />
@@ -134,7 +148,7 @@
   </section>
 
   <!-- section3 -->
- <section class="section3 w-100 cont mt-5 d-flex justify-content-start align-items-start">
+ <section class="section3 w-100 cont mt-5 d-flex justify-content-start align-items-start" >
   <div class="container-fluid w-100 px-0 d-flex justify-content-center justify-content-lg-start">
     <div class="container-xxl  w-100  d-flex flex-wrap flex-md-wrap flex-lg-nowrap align-items-start align-items-lg-start p-1 custom-container">
       <!-- Image Section -->
@@ -144,14 +158,14 @@
       <div class="content p-2 py-3 px-md-5 gap-md-6  d-flex flex-column align-self-center justify-content-between py-5">
         <div>
           <h3 class="text-brown fw-bold">Resources</h3>
-          <h2 class="fs-3 fw-bold text-white">
-            Download Our FREE Homeowner’s Guide to Remodeling
+          <h2 id="heading" class="fs-7 fw-bold text-white">
+            Download Our FREE <span class="d-lg-block">Homeowner’s Guide to </span> <span class="d-lg-block">Remodeling</span>
           </h2>
         </div>
         <div class="content2 mt-5">
           <p class="text-white fs-5">
-            Discover expert tips, budgeting advice, and design inspiration to
-            make your remodeling project seamless.
+            Discover expert tips, budgeting advice, <span class="d-lg-block">and design inspiration to
+            make your </span> <span class="d-lg-block">remodeling project seamless.</span>
           </p>
           <button class="btn bg-brown text-white px-4 py-3 fs-5 border-0">
             Download Now
@@ -164,16 +178,18 @@
 
 
  <!-- section4 -->
-  <section class="section4 container py-5">
+  <section class="section4 container py-5" id="services">
     <div class="row">
-      <div class="left-content col-md-6 col-lg-5 d-flex flex-column gap-3">
+      <div class="left-content col-md-6 col-lg-5 d-flex flex-column gap-1">
         <h3 class="text-brown">Our Services</h3>
-        <h2 class="fs-1 fw-bold">
+        <h2 class="fs-7 fs-sm-7 fw-bold">
           Our <span class="text-brown">Luxury</span> Home Construction
           Services
         </h2>
       </div>
 
+      
+      
       <div class="right content col-md-6 col-lg-7 d-flex flex-column gap-3 align-self-center">
         <p class="fs-5 fw-normal">
           Your home should be a space where you feel the most comfortable and
@@ -195,7 +211,7 @@
     <div  class="imgs mt-5 gap-1 d-flex flex justify-content-between">
       <div class="arrows d-flex flex-column justify-content-center  d-lg-none">
 
-        <span class="arrow border border-brown px-2 py-2"><i class="fa-solid fa-arrow-left"></i></span>
+        <span class="arrow  bg-danger border border-brown px-2 py-2"><i class="fa-solid fa-arrow-left"></i></span>
       </div>
       
 
@@ -228,7 +244,7 @@
   </section>
 
   <!-- section7 -->
-  <section class="section7 container py-5">
+  <section class="section7 container py-5" id="portfolio">
     <div class="container">
       <div class="row row1">
         <div class="col-md-6 col-lg-5 d-flex flex-wrap flex-column gap-2">
@@ -251,7 +267,7 @@
       <div class="row row2 mt-4 d-flex justify-content-between">
         <div class="col-md-12 col-lg-12 col-xl-4 d-flex flex-column gap-3 justify-content-between">
           <div>
-            <h2>Modern Elegance Retreat</h2>
+            <h2 class="fs-4">Modern Elegance Retreat</h2>
             <p>
               Sleek, open spaces blending minimalist
               <span class="d-md-block">design with warm, inviting comfort and functionality.</span>
@@ -277,7 +293,7 @@
       <div class="row row2 mt-4 d-flex flex-wrap justify-content-between">
         <div class="col-md-12 col-lg-12 col-xl-4 d-flex flex-column gap-3 justify-content-between">
           <div>
-            <h2>Urban Chic Haven</h2>
+            <h2 class="fs-4">Urban Chic Haven</h2>
             <p>
               A contemporary, stylish home featuring clean lines, cozy
               interiors, and modern aesthetics.
@@ -477,15 +493,15 @@
         </h2>
       </div>
       <div class="row d-flex gap-2 mt-2">
-        <div class="left col-md-12 col-lg-12 col-xl-6">
+        <div class="left col-md-12 col-lg-12 col-xl-5 ">
           <img src="imgs/Frame 9736.png" class="img-fluid" alt="" />
-          <div class="contents d-flex flex-column gap-2">
-            <h3>
+          <div class="contents d-flex flex-column gap-3">
+            <h3 class="py-3">
               Creating Creating a Spa-Like Bathroom: Design Ideas and
               Inspiration
             </h3>
             <span class="text-muted"><i class="fa-solid fa-calendar"></i> 8 May, 2023</span>
-            <p class="text-muted">
+            <p class="text-muted fs-6">
               Transform your bathroom into a serene retreat with calming
               colors, natural textures, and luxurious fixtures that create a
               peaceful, spa-inspired atmosphere.
@@ -496,23 +512,26 @@
           </button>
         </div>
 
-        <div class="right col-12 col-xl-5 d-flex flex-column gap-2 gap-xl-2">
+        <div class="right col-12 col-xl-6 d-flex flex-column gap-4 gap-xl-2">
 
           <div class="right ">
             <div class="d-flex flex-wrap flex-md-nowrap gap-2">
               <div>
                 <img src="imgs/Frame 9742.png" class="img-fluid" alt="" />
               </div>
-              <div class="right-cont d-flex flex-wrap flex-md-nowrap flex-column gap-2 align-self-center">
-                <h2>
-                  The Power of Accent
-                  <span class="d-md-block">Lighting in Interior Design</span>
-                </h2>
-                <span class="text-muted"><i class="fa-solid fa-calendar"></i> 8 May, 2023</span>
-                <p class="text-muted fs-6">
-                  Elevate any room’s ambiance with <span class="d-md-block">accent lighting —
-                    highlighting key features...,</span>
-                </p>
+              <div class="right-cont d-flex flex-wrap flex-md-nowrap flex-column  justify-content-between">
+                <div class="d-flex flex-wrap flex-md-nowrap flex-column gap-2">
+
+                  <h2 class="fs-4">
+                    The Power of Accent
+                   <span class="d-md-block d-lg-">Lighting in Interior Design</span>
+                  </h2>
+                  <span class="text-muted"><i class="fa-solid fa-calendar"></i> 8 May, 2023</span>
+                  <p class="text-muted fs-6">
+                    Elevate any room’s ambiance with <span class="d-md-block">accent lighting —
+                      highlighting key ...,</span>
+                  </p>
+                </div>
 
                 <div>
 
@@ -528,16 +547,18 @@
               <div>
                 <img src="imgs/Frame 9742-1.png" class="img-fluid" alt="" />
               </div>
-              <div class="right-cont d-flex flex-column gap-2">
-                <h2>
-                  The Power of Accent
-                  <span class="d-md-block">Lighting in Interior Design</span>
-                </h2>
-                <span class="text-muted"><i class="fa-solid fa-calendar"></i> 8 May, 2023</span>
-                <p class="text-muted fs-6">
-                  Create your perfect bedroom sanctuary <span class="d-block"> by selecting colors that promote
-                    relax..</span>
-                </p>
+              <div class="right-cont d-flex flex-column gap-2 justify-content-between">
+                <div class="d-flex flex-wrap flex-md-nowrap flex-column gap-2">
+
+                  <h2 class="fs-4">
+                   How to Choose the Right <span class="d-block">Colors for Your Bedroom</span>
+                  </h2>
+                  <span class="text-muted"><i class="fa-solid fa-calendar"></i> 8 May, 2023</span>
+                  <p class="text-muted fs-6">
+                    Create your perfect bedroom sanctuary <span class="d-block"> by selecting colors that promote
+                      relax..</span>
+                  </p>
+                </div>
 
                 <div>
 
@@ -554,10 +575,10 @@
 
 
 
-  <section>
+  <section class="section11">
 
     <div class="container section-container">
-    <div class="row g-5">
+    <div class="row ">
       <div class="col-lg-6 content-box">
         <p class="text-highlight fw-semibold">Why Choose Us</p>
         <h2 class="fw-bold">Why Choose <span class="text-highlight">CHV</span> Construction?</h2>
@@ -574,11 +595,11 @@
       </div>
     </div>
 
-    <div class="row g-5 align-items-start">
-      <div class="col-lg-6 order-2 order-lg-0">
+    <div class="row  align-items-start">
+      <div class="col-lg-7 order-2 order-lg-0">
         <img src="https://chvconstruction.com/wp-content/uploads/2025/04/designing-door.jpg.webp" alt="Kitchen" class="img-fluid image-bottom">
       </div>
-      <div class="col-lg-6 content-box order-1 order-lg-0">
+      <div class="col-lg-5 content-box order-1 order-lg-0">
         <p class="text-highlight fw-semibold">Collaboration</p>
         <h2 class="fw-bold">Designing <span class="text-highlight">Homes</span> That Reflect Your Lifestyle</h2>
         <p class="text-muted">
@@ -604,7 +625,7 @@
     <div class="container contact-section d-flex flex-column">
       <!-- Top text -->
       <div class="row mb-5 justify-content-center">
-        <div class="col-lg->
+        <div class="col ">
           <p class="text-uppercase fw-semibold text-warning">Contact Us</p>
           <div class="d-flex flex-wrap justify-content-between ">
 
@@ -623,16 +644,16 @@
         </div>
       </div>
 
-      <!-- Image + Form Section -->
+    
       <div class="image-wrapper justify-content-center">
         <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" class="contact-image"
           alt="Living Room" />
 
-        <!-- Form overlayed on image -->
+        
         <div class="form-overlay">
-          <h4 class="fw-bold mb-4">Get in Touch</h4>
+          <h4 class="fw-bold mb-4 fs-7 ">Get in Touch</h4>
           <form>
-            <div class="row mb-3">
+            <div class="row mb-3 mt-2">
               <div class="col-md-6 mb-3 mb-md-0">
                 <input type="text" class="form-control" placeholder="Your Name" required />
               </div>
@@ -671,7 +692,7 @@
 
             <div class="d-flex flex-column ">
 
-              <p class="fs-3 mt-4"><i class="fa-solid fa-phone-volume fs-3 text-brown"></i> 808-457-0060</p>
+              <p class="fs-2 fw-semibold mt-4"><i class="fa-solid fa-phone-volume fs-3 text-brown"></i> 808-457-0060</p>
               <span class="text-brown ms-5 fw-medium">Call Us Now!</span>
             </div>
 
@@ -680,7 +701,7 @@
 
           <div class="quick-links col-12 col-lg-2">
             <h3 class="">Quick Links</h3>
-            <ul class="list-unstyled gap-5">
+            <ul class="list-unstyled">
               <li>Home</li>
               <li>About</li>
               <li>Service</li>
@@ -690,7 +711,7 @@
           </div>
           <div class="services col-12 col-lg-3">
             <h3>Services</h3>
-            <ul class="list-unstyled gap-5">
+            <ul class="list-unstyled ">
               <li>Whole Home Remodel</li>
               <li>Kitchen Remodel</li>
               <li>Bathroom Remodel</li>
@@ -716,11 +737,14 @@
           <hr class="mt-3">
 
 
-          <p class="text-center">© 2025 CHV Construction . All Rights Reserved </p>
+          <div>
 
+            <p class="text-center">© 2025 CHV Construction . All Rights Reserved </p>
+          </div>
+          
         </div>
-
-
+        
+    
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
           integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
           crossorigin="anonymous"></script>
@@ -730,6 +754,8 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
           integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
           crossorigin="anonymous"></script>
+
+         
   </body>
 
 </html>
