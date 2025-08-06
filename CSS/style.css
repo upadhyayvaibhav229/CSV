@@ -1,7 +1,29 @@
+
+:root {
+    --brown: #d3982d;
+    --gray: #F5F5F5;
+  }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html,
+body {
+  /* overflow-x: scroll !important; */
+  /* overflow-x: hidden !important; */
+}
+
+.section-padding {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+.footer-padding {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
 }
 
 .img1 {
@@ -14,49 +36,50 @@
   right: 63.6%;
 }
 
-button:hover {
+/* a:hover {
   background-color: black !important;
   color: white !important;
+} */
+
+h1,
+h2,
+h3 {
+  font-family: "Plus Jakarta Sans";
 }
 
-h1, h2, h3{
-    font-family: 'Plus Jakarta Sans';
-
+p {
+  font-family: "Open Sans";
 }
-
-p{
-  font-family: 'Open Sans';
+a {
+  font-family: "Inter";
 }
-button{
-  font-family: 'Inter';
-}
-.section1{
-  #button{
+.hero-section {
+  #a {
     margin-top: -4rem;
-    padding-right: 4rem; 
+    padding-right: 4rem;
   }
 
   .step {
-  cursor: pointer;
-  padding: 10px 20px;
-  border-bottom: 3px solid transparent;
-  transition: border-color 0.3s ease;
-  font-weight: bold;
-}
+    cursor: pointer;
+    padding: 10px 20px;
+    border-bottom: 3px solid transparent;
+    transition: border-color 0.3s ease;
+    font-weight: bold;
+  }
 
-.step.active {
-  border-bottom: 3px solid #FF6600; /* Use your highlight color */
-  color: #FF6600;
+  .step.active {
+    border-bottom: 3px solid #ff6600; /* Use your highlight color */
+    color: #ff6600;
+  }
 }
-}
-/* section2 */
-.section2 {
+/* about-section */
+.about-section {
   span {
     margin-left: 10px;
     font-size: 1rem;
   }
 
-  #heading{
+  #heading {
     font-size: 30px;
   }
 
@@ -71,7 +94,7 @@ button{
   }
 }
 
-/* section3 */
+/* resource-section */
 .cont {
   background-color: #130a0d;
 }
@@ -85,14 +108,12 @@ button{
   max-width: 600px;
   height: auto;
   transition: all 0.3s ease-in-out;
-  
-  
 }
 
-.section4{
-  #arrow{
-      margin-top: -2rem;
-    }
+.service-section {
+  #arrow {
+    margin-top: -2rem;
+  }
 }
 
 /* Center the container when screen is very wide (zoomed out or large monitor) */
@@ -103,12 +124,17 @@ button{
     background-image: url("../imgs/bg-img.png");
     background-size: cover;
     background-position: center;
-  } 
+  }
+}
+
+.form{
+  margin: 40px 0; 
+  padding: 10px 20px;
 }
 
 /* footer */
-footer ul li{
-  font-family: 'Inter';
+footer ul li {
+  font-family: "Inter";
 }
 
 .quick-links {
@@ -168,15 +194,14 @@ footer ul li{
   padding: 2rem;
   border-radius: 8px;
 }
-.checklist li{
+.checklist li {
   margin-bottom: 10px;
 }
 .checklist li::before {
-  
   border-radius: 50%;
   content: "\2714\FE0E";
   background-color: #d3982d !important;
-  padding:0 0.3rem 0 0.3rem;
+  padding: 0 0.3rem 0 0.3rem;
   color: white !important;
   font-weight: bold;
   margin-right: 8px;
@@ -203,7 +228,7 @@ footer ul li{
   /* border-radius: 5px; */
 }
 
-.form-overlay {
+.contact-form-wrapper {
   position: absolute;
   top: 50%;
   right: 104px;
@@ -220,7 +245,7 @@ footer ul li{
   z-index: 10;
 }
 
-.form-overlay::before {
+.contact-form-wrapper::before {
   border-top: 6px solid #d3982d;
   border-bottom: 6px solid #d3982d;
   width: 66%;
@@ -252,10 +277,10 @@ footer ul li{
   padding: 10px 25px;
 }
 
-.section10{
-  .right{
+.hero-section0 {
+  .right {
     margin-top: 1rem;
-  } 
+  }
 }
 
 /* responsive */
@@ -266,14 +291,14 @@ footer ul li{
   /* #image{
         width: 100px !important;
     } */
-  .section1 {
+  .hero-section {
     .img1 {
       position: relative;
     }
-      #button{
-    margin-top: 1rem;
-    padding-right: 2rem; 
-  }
+    #a {
+      margin-top: 1rem;
+      padding-right: 2rem;
+    }
 
     .img2 {
       position: static;
@@ -281,40 +306,36 @@ footer ul li{
       margin: auto;
     }
   }
-  .section3{
-    #heading{
+  .resource-section {
+    #heading {
       font-size: 30px !important;
     }
   }
 
-  .section2 {
+  .about-section {
     .twenty {
       width: 100px !important;
       /* height: 50px; */
     }
   }
 
-  .section4 {
-    .imgs {
+  .service-section {
+    .image-wrappers {
       img {
         width: 220px;
       }
-
     }
 
-    
-
-   
-    span:hover{
+    span:hover {
       color: #d3982d !important;
       cursor: pointer;
     }
   }
-  
 
+ 
   /* section8 */
-  .box {
-    .box1 {
+  .box-wrapper {
+    .process-box {
       width: 100% !important;
     }
   }
@@ -331,18 +352,26 @@ footer ul li{
   .image-wrapper {
     position: static;
     /* Remove relative */
+
+    img {
+      padding: 10px;
+    }
   }
 
-  .form-overlay {
+  .contact-form-wrapper {
     position: static !important;
     transform: none;
     width: 100%;
     margin-top: 20px;
     border: 6px solid #d3982d;
-   
+    padding: 5px;
+
+    form {
+      padding: 0;
+    }
   }
 
-  .form-overlay::before{
+  .contact-form-wrapper::before {
     position: static;
     display: none;
   }
@@ -351,8 +380,8 @@ footer ul li{
     width: 100%;
   }
 
-  /* section3 */
-  .section3 {
+  /* resource-section */
+  .resource-section {
     /* margin-top: 20px; */
     .img-custom {
       width: 100% !important;
@@ -361,25 +390,22 @@ footer ul li{
 }
 
 @media (min-width: 425px) and (max-width: 768px) {
-  .form-overlay {
+  .contact-form-wrapper {
     position: static !important;
     transform: none;
     width: 100%;
     margin-top: 20px;
     border: 6px solid #d3982d;
-   
   }
 
-  .form-overlay::before{
+  .contact-form-wrapper::before {
     position: static;
     display: none;
   }
-  .section1 {
+  .hero-section {
     .img1 {
       position: relative;
     }
-
-
 
     .img2 {
       position: static;
@@ -388,21 +414,20 @@ footer ul li{
     }
   }
 
-  .section2 {
+  .about-section {
     .twenty {
       width: 100px !important;
       /* height: 50px; */
     }
-    
   }
 
-  .section3{
-    #heading{
+  .resource-section {
+    #heading {
       font-size: 30px !important;
     }
   }
 
-  .section4 {
+  .service-section {
     .imgs {
       img {
         width: 220px;
@@ -411,8 +436,8 @@ footer ul li{
   }
 
   /* section8 */
-  .box {
-    .box1 {
+  .box-wrapper {
+    .process-box {
       width: 100% !important;
     }
   }
@@ -431,7 +456,7 @@ footer ul li{
     /* Remove relative */
   }
 
-  .form-overlay {
+  .contact-form-wrapper {
     position: static !important;
     /* Remove absolute */
     transform: none;
@@ -445,7 +470,7 @@ footer ul li{
     width: 100%;
   }
 
-  .section3 {
+  .resource-section {
     /* margin-top: 20px; */
     .img-custom {
       max-width: 100% !important;
@@ -455,20 +480,19 @@ footer ul li{
 
 /* Tablet */
 @media (min-width: 768px) and (max-width: 992px) {
-  .form-overlay {
+  .contact-form-wrapper {
     position: static !important;
     transform: none;
     width: 100%;
     margin-top: 20px;
     border: 6px solid #d3982d;
-   
   }
 
-  .form-overlay::before{
+  .contact-form-wrapper::before {
     position: static;
     display: none;
   }
-  .section4 {
+  .service-section {
     .imgs {
       gap: 10px;
       justify-content: center;
@@ -479,7 +503,7 @@ footer ul li{
     }
   }
 
-  .section1 {
+  .hero-section {
     .img1 {
       position: relative;
     }
@@ -494,7 +518,7 @@ footer ul li{
     /* Remove relative */
   }
 
-  .form-overlay {
+  .contact-form-wrapper {
     position: static !important;
     /* Remove absolute */
     transform: none;
@@ -513,28 +537,33 @@ footer ul li{
     height: auto;
     transition: all 0.3s ease-in-out;
   }
+
+  .image-wrappers{
+    img{
+      width: 220px !important;
+    }
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  .form-overlay {
+  .contact-form-wrapper {
     position: static !important;
     transform: none;
     width: 100%;
     margin-top: 20px;
     border: 6px solid #d3982d;
-   
   }
 
-  .form-overlay::before{
+  .contact-form-wrapper::before {
     position: static;
     display: none;
   }
-  .section3{
-    #heading{
+  .resource-section {
+    #heading {
       font-size: 29px !important;
     }
   }
-  .section1 {
+  .hero-section {
     .img1 {
       position: relative;
       max-width: 90% !important;
@@ -555,17 +584,17 @@ footer ul li{
     border-radius: 5px;
   }
 
-  .form-overlay {
+  .contact-form-wrapper {
     right: -14px;
   }
 
-  .form-overlay::before {
+  .contact-form-wrapper::before {
     width: 54%;
 
     left: 46%;
   }
 
-  .section4 {
+  .service-section {
     .imgs {
       img {
         width: 300px;
@@ -573,12 +602,12 @@ footer ul li{
     }
   }
 
-  .form-overlay {
+  .contact-form-wrapper {
     right: -14px;
   }
 
-  .section-container{
-    .image-top{
+  #section-container {
+    .image-top {
       margin-top: 3rem;
     }
   }
@@ -590,7 +619,7 @@ footer ul li{
     margin-right: auto;
   }
 
-  .form-overlay {
+  .contact-form-wrapper {
     position: absolute;
     top: 50%;
     right: 290px;
@@ -607,7 +636,7 @@ border-bottom: 6px solid #d3982d; */
     z-index: 10;
   }
 
-  .form-overlay::before {
+  .contact-form-wrapper::before {
     border-top: 6px solid #d3982d;
     border-bottom: 6px solid #d3982d;
     width: 66%;
@@ -620,9 +649,96 @@ border-bottom: 6px solid #d3982d; */
     border-right: 6px solid #d3982d;
   }
 
-  .section1 {
+  .hero-section {
     .img2 {
       right: 68.6% !important;
     }
   }
+}
+
+
+/*----------------------- utility classes-------------------------  */
+/* colors */
+.bg-brown{
+    background-color: #DAA14C !important;
+}
+.bg-gray{
+    background-color: #F5F5F5 !important;
+}
+.bg-bkack{
+    background-color: #130A0D!important;
+}
+.text-brown{
+    color: #DAA14C !important;
+}
+
+/*  */
+
+.gap-6 {
+    gap: 5rem;
+}
+
+.border-brown {
+    border-bottom: 1px solid #DAA14C !important;
+}
+
+/* Custom CSS */
+.outlined-text {
+  color: transparent;
+  -webkit-text-stroke: 1px red; /* Chrome/Safari */
+  /* text-stroke: 1px red; */
+  font-weight: bold;            /* Optional for thicker stroke */
+  font-size: 90px;
+}
+
+.outlined-texts{
+    color: transparent;
+  -webkit-text-stroke: 1px #DAA14C;
+}
+
+.butn:hover{
+    border: 1px solid #DAA14C !important;
+    
+}
+
+.font-opensans{
+    font-family: 'Open Sans';
+}
+
+.font-jakarta{
+    font-family: 'Plus Jakarta Sans';
+}
+
+.font-inter{
+    font-family: 'Inter';
+}
+
+
+/* margin */
+@media (min-width: 960px) {
+    .ms-t-6 {
+        margin-top: 9rem;
+    }
+
+     .container{
+        .col-lg-7 {
+        flex: 0 0 auto;
+        width: 52.333333%;
+    }
+    
+    }
+
+    
+    
+}
+
+
+.fs-7{
+    font-size: 40px !important;
+
+}
+@media (max-width: 425px){
+    .fs-sm-7{
+        font-size: 29px !important;
+    }
 }
