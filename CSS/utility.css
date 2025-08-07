@@ -1,0 +1,92 @@
+:root {
+  /* colors */
+  --bg-brown: #DAA14C;
+  --bg-gray: #F5F5F5;
+  --bg-black: #130A0D;
+  --text-brown: #DAA14C;
+  --border-brown: #DAA14C;
+  --stroke-red: red;
+  --font-opensans: 'Open Sans';
+  --font-jakarta: 'Plus Jakarta Sans';
+  --font-inter: 'Inter';
+  --gap-6: 5rem;
+  --font-size-90px: 90px;
+  --font-size-40px: 40px;
+  --font-size-29px: 29px;
+  --margin-top-9rem: 9rem;
+  --width-52-333333: 52.333333%;
+}
+
+.bg-brown {
+  background-color: var(--bg-brown) !important;
+}
+
+.bg-gray {
+  background-color: var(--bg-gray) !important;
+}
+
+.bg-bkack {
+  background-color: var(--bg-black) !important;
+}
+
+.text-brown {
+  color: var(--text-brown) !important;
+}
+
+.gap-6 {
+  gap: var(--gap-6);
+}
+
+.border-brown {
+  border-bottom: 1px solid var(--border-brown) !important;
+}
+
+.outlined-text {
+  color: transparent;
+  -webkit-text-stroke: 1px var(--stroke-red);
+  font-weight: bold;
+  font-size: var(--font-size-90px);
+}
+
+.outlined-texts {
+  color: transparent;
+  -webkit-text-stroke: 1px var(--text-brown);
+}
+
+.butn:hover {
+  border: 1px solid var(--border-brown) !important;
+}
+
+.font-opensans {
+  font-family: var(--font-opensans);
+}
+
+.font-jakarta {
+  font-family: var(--font-jakarta);
+}
+
+.font-inter {
+  font-family: var(--font-inter);
+}
+
+@media (min-width: 960px) {
+  .ms-t-6 {
+    margin-top: var(--margin-top-9rem);
+  }
+
+  .section-chooseus{
+    .col-lg-7{
+      width: var(--width-52-333333);
+    }
+  }
+}
+
+.fs-7 {
+  font-size: var(--font-size-40px) !important;
+}
+
+@media (max-width: 425px) {
+  .fs-sm-7 {
+    font-size: var(--font-size-29px) !important;
+  }
+}
