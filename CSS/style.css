@@ -49,10 +49,10 @@ body {
 } */
 
 h1 {
-  font-size: 40px;
+  font-size: 50px;
   font-family: "Plus Jakarta Sans";
   font-weight: bold;
-  line-height: 48px;
+  line-height: 70px;
 }
 h2 {
   font-weight: bold;
@@ -167,6 +167,20 @@ p {
     width: 76px;
     /* height: 100px; */
   }
+
+  .experience-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    gap: 1rem;
+
+  }
+}
+
+.experience-wrapper img{
+  /* max-height: 40px */
 }
 
 /* resource-section */
