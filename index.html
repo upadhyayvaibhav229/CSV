@@ -16,6 +16,8 @@
 
     <link rel="stylesheet" href="CSS/style.css" />
     <link rel="stylesheet" href="CSS/utility.css" />
+    <link rel="stylesheet" href="CSS/fonts.css" />
+    
     <!-- font icon cdn -->
     <link
       rel="stylesheet"
@@ -137,7 +139,6 @@
         </div>
       </section>
 
-      <!-- about-section - about us comp -->
 
       <section class="about-section section-padding">
         <div class="container">
@@ -172,7 +173,7 @@
                   services in Salt Lake County, Utah County, Sanpete County, and
                   Juab County.
                 </p>
-                <div class="cta-btn mb-5">
+                <div class="cta-btn">
                   <a href="#"> Schedule Your Free Estimate Today </a>
                 </div>
               </div>
@@ -181,9 +182,8 @@
               <div class="experience-box">
                 <p class="experience-number mb-0">20</p>
                 <div class="experience-text">
-                  Years <br />
-                  Experience <br />
-                  Working
+                  Years <span class="d-block">Experience</span>
+                   <span class="d-block">Working</span>
                 </div>
               </div>
             </div>
@@ -241,21 +241,23 @@
                   Our <span class="text-brown">Luxury</span> Home Construction
                   Services
                 </h2>
-                <div class="d-none d-lg-block">
-                  <span class="arrow border border-brown px-2 py-2"
-                    ><i class="fa-solid fa-arrow-left"></i
-                  ></span>
 
-                  <span class="arrow border border-brown px-2 py-2"
-                    ><i class="fa-solid fa-arrow-right"></i
-                  ></span>
-                </div>
+                 <div class="d-none d-lg-block">
+              <span class="arrow border border-brown px-2 py-2"
+                ><i class="fa-solid fa-arrow-left"></i
+              ></span>
+
+              <span class="arrow border border-brown px-2 py-2"
+                ><i class="fa-solid fa-arrow-right"></i
+              ></span>
+            </div>
+              
               </div>
             </div>
 
             <div class="col-md-6 col-lg-7">
               <div class="right-content-wrapper">
-                <p class="fs-5 fw-normal">
+                <p>
                   Your home should be a space where you feel the most
                   comfortable and relaxed. If it feels cramped or outdated, you
                   may be missing that warmth and comfort of being at home. CHV
@@ -266,8 +268,10 @@
                 </p>
               </div>
             </div>
+           
           </div>
 
+          
           <div class="image-wrappers flex-lg-nowrap">
             <div class="arrows d-lg-none">
               <span class="arrow"><i class="fa-solid fa-arrow-left"></i></span>
@@ -320,8 +324,80 @@
       </section>
 
       <!-- section-chooseus -->
-    
-      <!-- section-portfolio-->
+      <section class="section-chooseus section-padding">
+        <div class="container">
+          <div class="row justify-content-around">
+            <div class="col-lg-6">
+              <div class="content-wrapper">
+                <h3>Why Choose Us</h3>
+                <h2>
+                  Why Choose <span class="text-brown">CHV </span>
+                  <span class="d-md-block">Construction ?</span>
+                </h2>
+                <p>
+                  CHV Construction is not just another home remodeling company.
+                  Our firm was built on a foundation of 20 years of experience
+                  from our founder, Clint Hurst. Since 2018, we have been a
+                  trusted custom home builder in Utah, and we have a deep
+                  knowledge of Utah County housing trends and permitting
+                  processes. We also prioritize modern building techniques, and
+                  our team is constantly keeping up to date with construction
+                  innovations to make your project more efficient and affordable
+                  while delivering your aesthetic vision.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="image-top">
+                <img
+                  src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+                  alt="Living Room"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6 order-2 order-lg-0">
+              <div class="image-bottom">
+                <img
+                  src="https://chvconstruction.com/wp-content/uploads/2025/04/designing-door.jpg.webp"
+                  alt="Kitchen"
+                  class="img-fluid mb-5"
+                />
+              </div>
+            </div>
+
+            <div class="col-lg-6 order-1 order-lg-0">
+              <div class="bottom-content-wrapper p-5">
+                <h3>Collaboration</h3>
+                <h2>
+                  Designing <span class="text-brown">Homes</span> That Reflect
+                  Your Lifestyle
+                </h2>
+                <p>
+                  When we visit your space to discuss a remodel—or when you
+                  visit us to discuss custom home construction—we will help you
+                  design a space that fits into your lifestyle, emphasizing flow
+                  and functionality throughout the home. We will also take the
+                  time to go over different materials, designs, and finishes to
+                  discuss why they may or may not work for your home.
+                </p>
+                <div class="list-content">
+                  <ul class="list-unstyled checklist font-jakarta">
+                    <li>Your Home, Your Vision</li>
+                    <li>Empowered Collaboration</li>
+                    <li>Personalized Remodels</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
       <section class="section-portfolio section-padding">
         <div class="container">
           <div class="row">
@@ -412,7 +488,6 @@
         </div>
       </section>
 
-      <!-- section8 comp-->
       <section class="process-section bg-gray section-padding">
         <div class="container">
           <div class="row justify-content-center">
@@ -424,13 +499,13 @@
             </div>
 
             <div class="row">
-              <div class="col-sm-6 col-lg-4">
+              <div class="col-sm-6 col-lg-4 mb-3 mb-lg-0">
                 <div class="process-box">
                   <div class="box-number">
                     <span class="o">01</span>
                   </div>
                   <div class="box-content">
-                    <h3>We Visit You at Home</h3>
+                    <h4>We Visit You at Home</h4>
                     <p>
                       Through a unique combination of engineering, construction
                       and design disciplines and expertise.
@@ -439,13 +514,13 @@
                 </div>
               </div>
 
-              <div class="col-sm-6 col-lg-4">
+              <div class="col-sm-6 col-lg-4 mb-3 mb-lg-0">
                 <div class="process-box">
                   <div class="box-number">
                     <span>02</span>
                   </div>
                   <div class="box-content">
-                    <h3>Detailed Design Process</h3>
+                    <h4>Detailed Design Process</h4>
                     <p>
                       Through a unique combination of engineering, construction
                       and design disciplines and expertise.
@@ -454,13 +529,13 @@
                 </div>
               </div>
 
-              <div class="col-sm-6 col-lg-4">
+              <div class="col-sm-6 col-lg-4 mb-3 mb-lg-0">
                 <div class="process-box">
                   <div class="box-number">
                     <span>03</span>
                   </div>
                   <div class="box-content">
-                    <h3>Take Feedback & Repair</h3>
+                    <h4>Take Feedback & Repair</h4>
                     <p>
                       Through a unique combination of engineering, construction
                       and design disciplines and expertise.
@@ -473,7 +548,7 @@
         </div>
       </section>
 
-      <!-- section9 comp-->
+     
       <section class="section-Testimonials section-padding">
         <div class="container">
           <div class="row justify-content-between">
@@ -594,7 +669,7 @@
         </div>
       </section>
 
-      <!-- section-Blog comp-->
+     
       <section class="section-Blog bg-gray section-padding">
         <div class="container">
           <div class="row">
