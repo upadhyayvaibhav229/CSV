@@ -541,7 +541,7 @@ p {
 
 .image-bottom {
   position: relative;
-  width: 670px;
+  width: 675px;
   /* border-radius: 8px; */
   z-index: 1;
   img {
@@ -1386,4 +1386,9 @@ border-bottom: 6px solid #d3982d; */
   .fs-sm-7 {
     font-size: var(--font-size-29px) !important;
   }
+}
+
+
+@media (min-width: 1024px) and (max-width: 1200px){
+  
 }
