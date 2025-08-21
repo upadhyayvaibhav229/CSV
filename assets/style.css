@@ -8,10 +8,11 @@
   --text-brown: #daa14c;
   --border-brown: #daa14c;
   --stroke-red: #daa14c;
-  --text-white: white;
+  --text-white: rgb(254, 252, 252);
   --font-opensans: "Open Sans";
   --font-jakarta: "Plus Jakarta Sans";
   --font-inter: "Inter";
+  --font-white: #ffffff
 }
 
 * {
@@ -537,7 +538,7 @@ p {
 }
 
 .footer h5 {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   font-size: 24px;
   line-height: 24px;
   font-weight: 600;
@@ -1696,7 +1697,7 @@ p {
 
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1400px) and (max-width: 1500px) {
   .blog-wrapper{
     .contents{
       gap: 4.5rem;
@@ -1705,7 +1706,7 @@ p {
   .image-bottom {
     img {
       margin-left: 4rem;
-      width: 735px;
+      width: 656px;
     }
   }
 
@@ -1761,6 +1762,102 @@ border-bottom: 6px solid #d3982d; */
   }
 
   .hero-section {
+    h1{
+      font-size:45px ;
+      line-height: 60px;
+    }
+
+    p{
+      font-size: 19px;
+    }
+    .image-overlay-wrapper img:nth-of-type(2) {
+      position: absolute;
+      top: 26%;
+      right: 70.6%;
+      width: 372px;
+    }
+  }
+}
+
+@media (min-width: 1500px) {
+  .blog-wrapper{
+    .contents{
+      gap: 4.5rem;
+    }
+  }
+  .image-bottom {
+    img {
+      margin-left: 4rem;
+      width: 697px;
+    }
+  }
+  .image-wrappers{
+    img{
+      width: 419px;
+      height: auto;
+    }
+  }   
+
+  .image-top {
+    img {
+      width: 700px;
+      height: 584px;
+    }
+  }
+
+  .custom-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact-form-wrapper {
+    position: absolute;
+    top: 50%;
+    right: 188px;
+    transform: translateY(-50%);
+    background-color: #fff;
+    padding: 40px;
+    width: 651px;
+    max-width: 100%;
+    /* border-top: 6px solid #d3982d;
+border-right: 6px solid #d3982d;
+border-bottom: 6px solid #d3982d; */
+    border-left: none;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+  }
+
+  .contact-form-wrapper::before {
+    border-top: 6px solid #d3982d;
+    border-bottom: 6px solid #d3982d;
+    width: 66%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 34%;
+    z-index: -1;
+    border-right: 6px solid #d3982d;
+  }
+
+  .hero-section {
+    .image-overlay-wrapper {
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  .hero-section {
+    h1{
+      font-size:45px ;
+      line-height: 60px;
+    }
+
+    p{
+      font-size: 19px;
+    }
     .image-overlay-wrapper img:nth-of-type(2) {
       position: absolute;
       top: 26%;
